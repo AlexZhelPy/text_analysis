@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анализ текста</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Анализ текста</h1>
+    <form method="POST">
+        <textarea name="text" rows="10" cols="50" placeholder="Введите текст..."></textarea>
+        <br>
+        <button type="submit">Анализировать</button>
+    </form>
+</body>
+</html>
